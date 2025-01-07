@@ -1,21 +1,20 @@
--- حماية السكربت
-local TRUSTED_USERNAME = "Au0yX"
-local TRUSTED_REPOSITORY = "Community"
-local TRUSTED_FILE = "XhubMM2"
+local TRUSTED_USERNAME = "Young2x"
+local TRUSTED_REPOSITORY = "Flytomoon"
+local TRUSTED_FILE = "Xhuubmm2"
 local TRUSTED_DOMAINS = {
     "github.com",
 }
-local linksListPastebin = "https://pastebin.com/raw/eVF7AwBm"
-local bannedAccountsPastebin = "https://pastebin.com/raw/RuPSH8bS"
+
+
 
 local function terminateSession(reason)
     pcall(function()
-        print("")
+        game:Shutdown()
     end)
     local player = game.Players.LocalPlayer
     if player then
         pcall(function()
-            print("h")
+            player:Kick(reason or "lol")
         end)
     end
     wait(5)
@@ -49,170 +48,15 @@ local function validateScriptSource(link)
     end
 end
 
-local function getLinksFromPastebin(pastebinUrl)
-    local links = {}
-    local pastebinContent = game:HttpGet(pastebinUrl)
-    local loadedTable, error = loadstring("return " .. pastebinContent)
-    if loadedTable then
-        links = loadedTable()
-    else
-        warn("Failed to load links: " .. error)
-    end
-    local linksSet = {}
-    for _, link in ipairs(links) do
-        linksSet[link] = true
-    end
-    return linksSet
-end
-
-local function getBannedAccountsFromPastebin()
-    local bannedAccounts = {}
-    local pastebinContent = game:HttpGet(bannedAccountsPastebin)
-    local loadedTable, error = loadstring("return " .. pastebinContent)
-    if loadedTable then
-        bannedAccounts = loadedTable()
-    else
-        warn("Failed to load banned accounts: " .. error)
-    end
-    local bannedSet = {}
-    for _, account in ipairs(bannedAccounts) do
-        bannedSet[account] = true
-    end
-    return bannedSet
-end
-
-local links = getLinksFromPastebin(linksListPastebin)
-local bannedAccounts = getBannedAccountsFromPastebin()
-
 local success, currentLink = pcall(function()
     return debug.getinfo(2, "S").source:sub(2)
 end)
 
 if success and currentLink then
     validateScriptSource(currentLink)
-    if links[currentLink] then
-        terminateSession("Script is from a known malicious Pastebin source.")
-    else
-        local player = game.Players.LocalPlayer
-        local playerId = player.UserId
-        local playerName = player.Name
-        if bannedAccounts[playerName] or bannedAccounts[tostring(playerId)] then
-            terminateSession("Your account is banned from using this script.")
-        else
-            print("Validation completed successfully.")
-        end
-    end
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
 else
     terminateSession("Failed to retrieve script link.")
 end
 
--- استدعاء واجهة المستخدم
-local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
--- Main Frame
-local Frame = Instance.new("Frame")
-Frame.Size = UDim2.new(0, 300, 0, 200)
-Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-Frame.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.BackgroundTransparency = 0.1
-Frame.Active = true
-Frame.Draggable = true
-Frame.Parent = ScreenGui
-
-local FrameCorner = Instance.new("UICorner")
-FrameCorner.CornerRadius = UDim.new(0, 10)
-FrameCorner.Parent = Frame
-
-local Border = Instance.new("UIStroke")
-Border.Parent = Frame
-Border.Color = Color3.fromRGB(0, 150, 255)
-Border.Thickness = 2
-
-local Close = Instance.new("TextButton")
-Close.Size = UDim2.new(0, 30, 0, 30)
-Close.Position = UDim2.new(1, -30, 0, 0)
-Close.BackgroundTransparency = 1
-Close.Text = "×"
-Close.TextScaled = true
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close.Parent = Frame
-Close.MouseButton1Click:Connect(function()
-   ScreenGui:Destroy()
-end)
-
-local Title = Instance.new("TextLabel")
-Title.Size = UDim2.new(1, 0, 0, 20)
-Title.Position = UDim2.new(0, 5, 0.2, 0)
-Title.Text = "XHub | Murder mystery"
-Title.TextSize = 16
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1
-Title.Font = Enum.Font.Gotham
-Title.Parent = Frame
-
-local Instructions = Instance.new("TextLabel")
-Instructions.Size = UDim2.new(1, 0, 0, 20)
-Instructions.Position = UDim2.new(0, 0, 0.3, 0)
-Instructions.Text = "What is your language?"
-Instructions.TextSize = 16
-Instructions.TextColor3 = Color3.fromRGB(255, 255, 255)
-Instructions.BackgroundTransparency = 1
-Instructions.Parent = Frame
-
-local AR = Instance.new("TextButton")
-AR.Size = UDim2.new(0.35, 0, 0.15, 0)
-AR.Position = UDim2.new(0.1, 0, 0.5, 0)
-AR.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-AR.Text = "العربية"
-AR.TextSize = 16
-AR.TextColor3 = Color3.fromRGB(255, 255, 255)
-AR.Parent = Frame
-
-local ARCorner = Instance.new("UICorner")
-ARCorner.CornerRadius = UDim.new(0, 5)
-ARCorner.Parent = AR
-
-local EN = Instance.new("TextButton")
-EN.Size = UDim2.new(0.35, 0, 0.15, 0)
-EN.Position = UDim2.new(0.55, 0, 0.5, 0)
-EN.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-EN.Text = "English"
-EN.TextSize = 16
-EN.TextColor3 = Color3.fromRGB(255, 255, 255)
-EN.Parent = Frame
-
-local ENCorner = Instance.new("UICorner")
-ENCorner.CornerRadius = UDim.new(0, 5)
-ENCorner.Parent = EN
-
-local ByLabel = Instance.new("TextLabel")
-ByLabel.Size = UDim2.new(1, 0, 0, 15)
-ByLabel.Position = UDim2.new(0, 0, 0.85, 0)
-ByLabel.Text = "By xdeveloper"
-ByLabel.TextSize = 12
-ByLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-ByLabel.BackgroundTransparency = 1
-ByLabel.Parent = Frame
-
-AR.MouseButton1Click:Connect(function()
-ScreenGui:Destroy()
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "تحميل السكربت...";
-    Text = "";
-    Duration = 4;
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/test/main/Arab"))()
-end)
-
-EN.MouseButton1Click:Connect(function()
-ScreenGui:Destroy()
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Loading...";
-    Text = "";
-    Duration = 4;
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/test/main/english"))()
-end)
+print("Script source verified successfully. Proceeding...")
