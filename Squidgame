@@ -1,0 +1,17 @@
+return {
+    {
+        VIPuser = 123456789,
+        Username = "Player1",
+        HWID = "ABC-123-XYZ"
+    },
+    {
+        VIPuser = NG,
+        Username = "Februarry_2025",
+        HWID = "NG"
+    },
+    {
+        VIPuser = "NG",
+        Username = "Player3",
+        HWID = "DEF-456-GHI"
+    }
+}
