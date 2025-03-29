@@ -20,19 +20,19 @@ return {
 
 {
     VIPuser = 2784663867,
-    Username = "wh",
+    Username = "why",
     HWID = "NG"
 },
 
 {
     VIPuser = 5689456191,
-    Username = "NG",
+    Username = "huh",
     HWID = "NG"
 },
 
 {
     VIPuser = 3305059375,
-    Username = "NG",
+    Username = "Nio",
     HWID = "NG"
 },
 
@@ -50,6 +50,18 @@ return {
 
 {
     VIPuser = 4360972172,
+    Username = "NG",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 3763373738,
+    Username = "NG",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 3596794208,
     Username = "NG",
     HWID = "NG"
 }
