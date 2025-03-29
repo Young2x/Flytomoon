@@ -2,8 +2,8 @@ return {
 
 {
     VIPuser = 123456789,
-    Username = "fo",
-    HWID = "NG"
+    Username = "Player1",
+    HWID = "ABC-123-XYZ"
 },
 
 {
@@ -13,32 +13,44 @@ return {
 },
 
 {
-    VIPuser = "NG",
-    Username = "jxw85",
+    VIPuser = 2412702893,
+    Username = "NG",
     HWID = "NG"
 },
 
 {
     VIPuser = 2784663867,
-    Username = "sw",
+    Username = "wh",
     HWID = "NG"
 },
 
 {
     VIPuser = 5689456191,
-    Username = "bro",
+    Username = "NG",
     HWID = "NG"
 },
 
 {
     VIPuser = 3305059375,
-    Username = "bruh",
+    Username = "NG",
     HWID = "NG"
 },
 
 {
     VIPuser = 408044195,
-    Username = "h",
+    Username = "NG",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 4300241127,
+    Username = "NG",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 4360972172,
+    Username = "NG",
     HWID = "NG"
 }
 
