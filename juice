@@ -1,1 +1,46 @@
--- NET YET LOL  
+return {
+
+{
+    VIPuser = 123456789,
+    Username = "fo",
+    HWID = "NG"
+},
+
+{
+    VIPuser = "NG",
+    Username = "Gameover_s0",
+    HWID = "NG"
+},
+
+{
+    VIPuser = "NG",
+    Username = "jxw85",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 2784663867,
+    Username = "sw",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 5689456191,
+    Username = "bro",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 3305059375,
+    Username = "bruh",
+    HWID = "NG"
+},
+
+{
+    VIPuser = 408044195,
+    Username = "h",
+    HWID = "NG"
+}
+
+}
+
