@@ -1,69 +1,69 @@
 return {
 
 {
-    VIPuser = 123456789,
-    Username = "Player1",
-    HWID = "ABC-123-XYZ"
+VIPuser = 123456789,
+Username = "Player1",
+HWID = "ABC-123-XYZ"
 },
 
 {
-    VIPuser = "NG",
-    Username = "Gameover_s0",
-    HWID = "NG"
+VIPuser = "NG",
+Username = "Gameover_s0",
+HWID = "NG"
 },
 
 {
-    VIPuser = 2412702893,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 2412702893,
+Username = "jxw85",
+HWID = "NG"
 },
 
 {
-    VIPuser = 2784663867,
-    Username = "why",
-    HWID = "NG"
+VIPuser = 2784663867,
+Username = "CapybaraScripts",
+HWID = "NG"
 },
 
 {
-    VIPuser = 5689456191,
-    Username = "huh",
-    HWID = "NG"
+VIPuser = 5689456191,
+Username = "Mew0oo69",
+HWID = "NG"
 },
 
 {
-    VIPuser = 3305059375,
-    Username = "Nio",
-    HWID = "NG"
+VIPuser = 3305059375,
+Username = "LOLO3ADEL1",
+HWID = "NG"
 },
 
 {
-    VIPuser = 408044195,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 408044195,
+Username = "azombroso21",
+HWID = "NG"
 },
 
 {
-    VIPuser = 4300241127,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 4300241127,
+Username = "Rashid3mk55",
+HWID = "NG"
 },
 
 {
-    VIPuser = 4360972172,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 4360972172,
+Username = "nadermohamed6",
+HWID = "NG"
 },
 
 {
-    VIPuser = 3763373738,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 3763373738,
+Username = "dndndbssbfb",
+HWID = "NG"
 },
 
 {
-    VIPuser = 3596794208,
-    Username = "NG",
-    HWID = "NG"
+VIPuser = 3596794208,
+Username = "ahmad74_3",
+HWID = "NG"
 }
 
 }
