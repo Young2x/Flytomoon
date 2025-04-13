@@ -1,1 +1,7 @@
 gameover_s0
+
+{
+VIPuser = 8249312725,
+Username = "NewUser",
+HWID = "NG"
+}
