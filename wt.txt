@@ -9,6 +9,7 @@ HWID = "ABC-123-XYZ"
 
 
 
+
 ,
 
 {
@@ -16,6 +17,7 @@ VIPuser = "NG",
 Username = "Gameover_s0",
 HWID = "NG"
 }
+
 
 
 
@@ -31,6 +33,7 @@ HWID = "NG"
 
 
 
+
 ,
 
 {
@@ -38,6 +41,7 @@ VIPuser = 2784663867,
 Username = "CapybaraScripts",
 HWID = "NG"
 }
+
 
 
 
@@ -53,6 +57,7 @@ HWID = "NG"
 
 
 
+
 ,
 
 {
@@ -60,6 +65,7 @@ VIPuser = 3305059375,
 Username = "LOLO3ADEL1",
 HWID = "NG"
 }
+
 
 
 
@@ -75,6 +81,7 @@ HWID = "NG"
 
 
 
+
 ,
 
 {
@@ -82,6 +89,7 @@ VIPuser = 4300241127,
 Username = "Rashid3mk55",
 HWID = "NG"
 }
+
 
 
 
@@ -94,16 +102,6 @@ Username = "nadermohamed6",
 HWID = "NG"
 }
 
-
-
-
-,
-
-{
-VIPuser = 3763373738,
-Username = "dndndbssbfb",
-HWID = "NG"
-}
 
 
 
