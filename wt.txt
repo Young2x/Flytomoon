@@ -75,3 +75,10 @@ VIPuser = 3596794208,
 Username = "ahmad74_3",
 HWID = "NG"
 }
+{
+VIPuser = owejdkxjw2,
+Username = "owejdkxjw2",
+HWID = "NG",
+AddedBy = "au0y",
+AddTime = "2025-04-14 14:40:47"
+}
