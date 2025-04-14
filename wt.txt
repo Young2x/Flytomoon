@@ -95,3 +95,8 @@ VIPuser = 3596794208,
 Username = "ahmad74_3",
 HWID = "NG"
 }
+{
+VIPuser = اسم,
+Username = "حسابه",
+HWID = "NG"
+}
