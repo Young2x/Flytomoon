@@ -4,88 +4,78 @@ return {
         VIPuser = 123456789,
         Username = "xJk_91zQa",
         HWID = "ABC-123-XYZ"
-    }
-,
+    },
 
     {
         VIPuser = "NG",
         Username = "zR9u_qP0mL",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 2412702893,
         Username = "Kx8v_Tm3cZ",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 2784663867,
         Username = "dL7n_Xqz9V",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 5689456191,
         Username = "wT4y_Rb8oA",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 3305059375,
         Username = "Mv3e_Jx7nW",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 408044195,
         Username = "pN0r_Vz6kY",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 4300241127,
         Username = "tQ5s_Kz9vB",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 4360972172,
         Username = "gU9m_Yc2fD",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 3763373738,
         Username = "hX2l_Op5qZ",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 3596794208,
         Username = "bE7z_Rm1vL",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = 7005522439,
         Username = "vC6n_Tz8qM",
         HWID = "NG"
-    }
-,
+    },
 
     {
         VIPuser = "NG",
         Username = "Gameover_s0",
         HWID = "NG"
     }
+
+}
