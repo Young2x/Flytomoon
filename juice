@@ -3,57 +3,42 @@ return {
 {
 VIPuser = "NG",
 Username = "Gameover_s0  -- 2",  -- 1
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 2412702893,
 Username = "jxw85  -- 3",  -- 2
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 2784663867,
 Username = "CapybaraScripts  -- 4",  -- 3
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 5689456191,
 Username = "Mew0oo69  -- 5",  -- 4
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 3305059375,
 Username = "LOLO3ADEL1  -- 6",  -- 5
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 408044195,
 Username = "azombroso21  -- 7",  -- 6
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 4300241127,
 Username = "Rashid3mk55  -- 8",  -- 7
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 4360972172,
 Username = "nadermohamed6  -- 9",  -- 8
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 3763373738,
 Username = "dndndbssbfb  -- 10",  -- 9
-HWID = "NG"
-},
+HWID = "NG"},
 {
 VIPuser = 3596794208,
 Username = "ahmad74_3  -- 11",  -- 10
-HWID = "NG"
-},
-{
-VIPuser = 1756078290,
-Username = "Tmom200  -- 12",  -- 11
-HWID = "NG"
-},
-
+HWID = "NG"},
+}}
 }
